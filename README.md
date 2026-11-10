@@ -165,4 +165,4 @@ Respecto a la corrupción, HDFS almacena **sumas de verificación (checksums) po
 ![HDFS fsck](evidencias/03_hdfs_comandos_fsck.png)
 
 ### 04. Interfaz web del NameNode: explorador de ficheros
-![WebUI HDFS](evidencias/04_webui_hdfs_browse.png)
+![WebUI HDFS](evidencias/08_webui_hdfs_browse.png)
