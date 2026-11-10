@@ -1,0 +1,11 @@
+services:
+  hadoop:
+    image: apache/hadoop:3.4.0
+    container_name: hadoop-lab
+    hostname: hadoop-lab
+    ports:
+      - "9870:9870"
+      - "8088:8088"
+    command: ["tail", "-f", "/dev/null"]
+    volumes:
+      - ./datos:/workspace
